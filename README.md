@@ -1,10 +1,14 @@
-# osixia/openldap
+# openldap docker container
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/osixia/openldap.svg)](https://hub.docker.com/r/osixia/openldap/)
-[![Docker Stars](https://img.shields.io/docker/stars/osixia/openldap.svg)](https://hub.docker.com/r/osixia/openldap/)
-[![Layers](https://images.microbadger.com/badges/image/osixia/openldap.svg)](https://hub.docker.com/r/osixia/openldap/)
+This is a fork of osixia/openldap. It uses the current LTS Release of openldap 2.5.13 as well as Debian Bullseye.
 
-Latest release: 1.5.0 - [OpenLDAP 2.4.57](https://www.openldap.org/software/release/changes.html) -  [Changelog](CHANGELOG.md) | [Docker Hub](https://hub.docker.com/r/osixia/openldap/) 
+[Docker Hub](https://hub.docker.com/repository/docker/grissir/openldap)
+
+**Migration info**
+
+The storage backend hdb is no longer supported. Please be cautious when upgrading.
+
+## osixia/openldap
 
 **A docker image to run OpenLDAP.**
 
