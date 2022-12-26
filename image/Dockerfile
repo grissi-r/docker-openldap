@@ -49,6 +49,8 @@ ADD service /container/service
 # https://github.com/osixia/docker-light-baseimage/blob/master/image/tool/install-service
 RUN /container/tool/install-service
 
+RUN touch /etc/ldap/ldap.conf
+
 # Add default env variables
 ADD environment /container/environment/99-default
 
