@@ -324,7 +324,7 @@ EOF
       log-helper info "Add bootstrap schemas..."
 
       # add ppolicy schema
-      ldapadd -c -Y EXTERNAL -Q -H ldapi:/// -f /etc/ldap/schema/ppolicy.ldif 2>&1 | log-helper debug
+      #ldapadd -c -Y EXTERNAL -Q -H ldapi:/// -f /etc/ldap/schema/ppolicy.ldif 2>&1 | log-helper debug
 
       # convert schemas to ldif
       SCHEMAS=""
