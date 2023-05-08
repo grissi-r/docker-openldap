@@ -2,7 +2,7 @@
 # sources: https://github.com/osixia/docker-light-baseimage
 FROM grissir/baseimage
 
-ARG OPENLDAP_PACKAGE_VERSION=2.5.13
+ARG OPENLDAP_PACKAGE_VERSION=2.5.14
 
 ARG LDAP_OPENLDAP_GID
 ARG LDAP_OPENLDAP_UID
